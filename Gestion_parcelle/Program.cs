@@ -1,5 +1,6 @@
 ﻿using Gestion_parcelle.Classes;
 #region Function
+#region Show list
 void ShowChemicalElementList(List<ChemicalElement> listInput)
 {
     for (int i = 0; i < listInput.Count; i++)
@@ -53,8 +54,81 @@ void ShowSprayingList(List<Spraying> listInput)
     Console.WriteLine($"Spraying [{listInput[i].SprayingId}] was the fertilizer [{listInput[i].SprayinFertilizerId}] quantity was {listInput[i].SprayingQuantity} was sprayed the {listInput[i].SprayingDate} on the plot [{listInput[i].SprayingPlotId}]");
     }
 }
+#endregion
+#region insert value
+void insertChemicalElement() 
+{
+    string elementCode,
+           elementTag,
+           unit;
+    restartChemicalElementInsertion:
+    Console.Clear();
+    Console.Write("====|Insert a chemical element|====\n\n" +
+        "Enter the element code:");
+    elementCode = Console.ReadLine();
+    if (elementCode == null || elementCode == "")
+    {
+        Console.WriteLine("Error:need to enter a value");
+        Console.ReadKey();
+        goto restartChemicalElementInsertion;
+    }
+    Console.Write("Enter the element name:");
+    restartElementNaming:
+    elementTag = Console.ReadLine();
+    if (elementTag == null || elementTag == "")
+    {
+        Console.WriteLine("Error:need to enter a value");
+        Console.ReadKey();
+        goto restartElementNaming;
+    }
+    restartElementUnit:
+    Console.Write("Enter the unit:");
+    unit = Console.ReadLine();
+    if (unit == null || unit == "")
+    {
+        Console.WriteLine("Error:need to enter a value");
+        Console.ReadKey();
+        goto restartElementUnit;
+    }
+    ChemicalElement.AddObjectToDB(elementCode,elementTag,unit);
+}
+void insertComposition()
+{
+    restartCompositionInsertion:
+    int compositionId,
+        compositionFertilizerId;
+    string compositionElementCode,
+           compositionUnit;
+    Console.Write("====|Insert a Composition|====\n\n" +
+        "Enter the element code:");
+    bool fertilizerIdParse = int.TryParse(Console.ReadLine(), out compositionFertilizerId);
+    if (!fertilizerIdParse)
+    {
+        Console.WriteLine("Error:the entry is not a number");
+        Console.ReadKey();
+        goto restartCompositionInsertion;
+    }
+    Console.Write("Enter the element code:");
+    restartCompositionElementCode:
+    compositionElementCode = Console.ReadLine();
+    if (compositionElementCode == null || compositionElementCode == "")
+    {
+        Console.WriteLine("Error:need to enter a value");
+        Console.ReadKey();
+        goto restartCompositionElementCode;
+    }
+    restartCompositionUnit:
+    compositionUnit = Console.ReadLine();
+    if (compositionUnit == null || compositionUnit == "")
+    {
+        Console.WriteLine("Error:need to enter a value");
+        Console.ReadKey();
+        goto restartCompositionUnit;
+    }
 
 
+}
+#endregion
 
 #endregion
 
@@ -67,7 +141,6 @@ while (appWorking)
         case "1":
             restartMenuList:
             Menu.MenuSelect("list");
-
             switch (Console.ReadLine())
             {
                 case "exit":
@@ -135,6 +208,21 @@ while (appWorking)
             }
             break;
         case "2":
+            restartMenuInsert:
+            Menu.MenuSelect("insert");
+            switch (Console.ReadLine())
+            {
+                case "exit":
+                    break;
+                case "1":
+                    insertChemicalElement();
+                    Console.ReadKey();
+                    goto restartMenuInsert;
+                default:
+                    Console.WriteLine("Error:invalid entry");
+                    Console.ReadKey();
+                    goto restartMenuInsert;
+            }
             break;
         case "exit":
             appWorking = false;

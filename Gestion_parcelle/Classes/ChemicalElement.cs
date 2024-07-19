@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Org.BouncyCastle.Math.Primes;
 
 namespace Gestion_parcelle.Classes
 {
@@ -56,6 +57,25 @@ namespace Gestion_parcelle.Classes
                 Console.WriteLine(ex.ToString());
                 return null;
             }            
+        }
+        public static void AddObjectToDB(string elementCode, string elementTag,string unit)
+        {
+            string sqlRequestConnetionString = "server=localhost; user id=root; database=app_gestion_parcelle";
+            string sqlRequestCommandString = $"INSERT INTO `chemical_element` (`element_code`, `element_tag`, `unit`) VALUES ('{elementCode}', '{elementTag}', '{unit}');";
+            MySqlConnection sqlRequestConnection = new MySqlConnection(sqlRequestConnetionString);
+            try
+            {
+                sqlRequestConnection.Open();
+                MySqlCommand sqlRequestCommand = new MySqlCommand(sqlRequestCommandString, sqlRequestConnection);
+                sqlRequestCommand.ExecuteNonQuery();
+                sqlRequestConnection.Close();
+                Console.WriteLine("Insert was succes full");
+            }
+            catch (Exception ex)
+            {
+                sqlRequestConnection.Close();
+                Console.WriteLine(ex.ToString());
+            }
         }
         #endregion
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gestion_parcelle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b14d54522df3c000ed059f47a5ccd336bc99c04f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13487437729c6ac3f15b1025ef306cebc90dbe6e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gestion_parcelle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gestion_parcelle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
