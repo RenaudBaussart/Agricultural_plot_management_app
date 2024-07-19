@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\spraying.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\spraying.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\chemicalelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\chemicalelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\fertilizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\fertilizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\composition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\composition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|c:\\users\\renau\\source\\repos\\gestion_parcelle\\gestion_parcelle\\classes\\culture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A8DF303-DD0D-4ED6-83D3-85FA3F32A18B}|Gestion_parcelle\\Gestion_parcelle.csproj|solutionrelative:gestion_parcelle\\classes\\culture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Spraying.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Spraying.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Spraying.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Spraying.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Spraying.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAQwDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:06:15.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Production.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Production.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Production.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Production.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Production.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAywCAAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T07:00:11.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plot.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Plot.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Plot.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Plot.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Plot.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA9wCgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:52:35.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Composition.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Composition.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Composition.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Composition.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Composition.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswCAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:38:05.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fertilizer.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Fertilizer.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Fertilizer.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Fertilizer.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Fertilizer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T05:32:29.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Menu.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Menu.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Menu.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Menu.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:54:51.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Culture.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Culture.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\Culture.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\Culture.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\Culture.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAD4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:45:44.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChemicalElement.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\ChemicalElement.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Classes\\ChemicalElement.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Classes\\ChemicalElement.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Classes\\ChemicalElement.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAQwDoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T13:07:41.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Program.cs",
+              "RelativeDocumentMoniker": "Gestion_parcelle\\Program.cs",
+              "ToolTip": "C:\\Users\\renau\\source\\repos\\Gestion_parcelle\\Gestion_parcelle\\Program.cs",
+              "RelativeToolTip": "Gestion_parcelle\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwCcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T08:48:33.195Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
